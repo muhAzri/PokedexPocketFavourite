@@ -5,11 +5,12 @@
 //  Created by Azri on 31/07/25.
 //
 
-import Foundation
-import SwiftUI
-import SwiftData
-import RxSwift
-import PokedexPocketCore
+// Re-export all public APIs
+@_exported import Foundation
+@_exported import SwiftUI  
+@_exported import SwiftData
+@_exported import RxSwift
+@_exported import PokedexPocketCore
 
 // MARK: - Framework Version Info
 public struct PokedexPocketFavourite {
@@ -20,4 +21,5 @@ public struct PokedexPocketFavourite {
         return "PokedexPocketFavourite v\(version) (\(buildNumber))"
     }
 }
+
 
